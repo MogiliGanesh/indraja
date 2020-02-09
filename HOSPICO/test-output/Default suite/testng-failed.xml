@@ -3,13 +3,12 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="tests.testCase">
+      <class name="tests.FBLoginTest">
         <methods>
-          <include name="tearDown"/>
-          <include name="dropdown"/>
-          <include name="setUp"/>
+          <include name="LogInTest"/>
+          <include name="initialize"/>
         </methods>
-      </class> <!-- tests.testCase -->
+      </class> <!-- tests.FBLoginTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
